@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CocktailApp_V1/Pods-CocktailApp_V1-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework

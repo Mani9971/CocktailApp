@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="gifView" customModule="CocktailApp_V1" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="agt-HF-xPp"/>
+                <outlet property="gifImageView" destination="zSh-TR-5Rn" id="tiw-4X-R4o"/>
+                <outlet property="titleLabel" destination="YIo-z8-2Ag" id="TQX-9C-jbT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zSh-TR-5Rn">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cocktailix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIo-z8-2Ag">
+                    <rect key="frame" x="30" y="586" width="354" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="OyN-GI-f0H"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="54"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="zSh-TR-5Rn" secondAttribute="trailing" id="8v8-PN-PO0"/>
+                <constraint firstItem="zSh-TR-5Rn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Kkj-bH-wkH"/>
+                <constraint firstItem="zSh-TR-5Rn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="KtK-Yu-yCx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="YIo-z8-2Ag" secondAttribute="bottom" constant="50" id="LXV-Cz-Rwp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="zSh-TR-5Rn" secondAttribute="bottom" id="Uo5-Hc-4lx"/>
+                <constraint firstItem="YIo-z8-2Ag" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="nqA-Be-p2g"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YIo-z8-2Ag" secondAttribute="trailing" constant="30" id="pOr-JL-V0o"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="132" y="148"/>
+        </view>
+    </objects>
+</document>
